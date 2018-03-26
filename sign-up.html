@@ -9,15 +9,23 @@
 </head>
 <body>
   <form>
-    <div style="width:15%; float:left;">Username:</div>
-    <div style="width:85%; float:left;"><input type="text" placeholder="John" /> </div> 
-    <div style="width:15%; float:left;">Email:</div>
-    <div style="width:85%; float:left;"><input type="email" placeholder="john@xyz.com" /></div>
-    <div style="width:15%; float:left;">Password:</div>
-    <div style="width:85%; float:left;"><input type="password" /> </div>
-    <div style="width:15%; float:left;">Repeat Password:</div>
-    <div style="width:85%; float:left;"><input type="password" /> </div>
-  </form>
+    Username:
+    <input type="text" placeholder="5 characters or more" id="user">
+    <br> Email:
+    <input type="e-mail" placeholder="yourname@email.com">
+    <br> Password:
+    <input type="password" id="pass1">
+    <br> Repeat password:
+    <input type="password" id="pass2">
+    <br> Phone Number:
+    <input type="number" id="phone">
+    <br> Country:
+    <input type="text" id="country" placeholder="Israel or USA">
+    <br>
+    <button type="button" id="btn">Submit</button>
+    <div id="msg"></div>
+</form>
   
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
